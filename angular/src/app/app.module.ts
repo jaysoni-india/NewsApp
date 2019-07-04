@@ -8,6 +8,8 @@ import { AnalystComponent } from './analyst/analyst.component';
 import { LoginComponent } from './analyst/login/login.component';
 import { RegisterComponent } from './analyst/register/register.component';
 import { HomeComponent } from './analyst/home/home.component';
+import { AppRoutingModule } from './app-routing.module';
+import { FrontComponent } from './front/front.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { HomeComponent } from './analyst/home/home.component';
     AnalystComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    FrontComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
