@@ -4,8 +4,9 @@
 
 export const environment = {
   production: false,
-  authUrl: 'http://localhost:8000/api',
-  newsUrl: 'http://nesapi'
+  apiUrl: 'http://localhost:8000/api',
+  newsUrl: 'http://nesapi',
+  newsKey: '9df38008a3854283b1465f548060fee5'
 };
 
 /*
