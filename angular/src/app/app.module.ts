@@ -11,6 +11,7 @@ import { RegisterComponent } from './analyst/register/register.component';
 import { HomeComponent } from './analyst/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FrontComponent } from './front/front.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FrontComponent } from './front/front.component';
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    FrontComponent
+    FrontComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
