@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-front',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FrontComponent implements OnInit {
 
-  constructor() { }
+  constructor( private router: Router) {
+        // this.router.navigate['/home'];
+
+   }
 
   ngOnInit() {
+
+    this.router.navigate['home'];
+
   }
 
 }

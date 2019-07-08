@@ -24,11 +24,11 @@ export class HttpService {
       return this.http.get(this.apiUrl + url)
   }
 
-  post(url,data){
+  newsGet(url,data){
       return this.http.post(this.newsUrl+url,data);
   }
 
-  get(url){
+  newsPost(url){
       return this.http.get(this.newsUrl + url);
   }
 

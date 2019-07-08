@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8000/api',
-  newsUrl: 'http://nesapi',
+  apiUrl: 'https://reqres.in/api',   // 'http://localhost:8000/api',
+  newsUrl: 'https://newsapi.org/v2',
   newsKey: '9df38008a3854283b1465f548060fee5'
 };
 
